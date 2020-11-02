@@ -15,6 +15,12 @@ entries:
     - output: web,pdf
       title: Maths
       url: maths.html
+    - output: web,pdf
+      title: Rotation
+      url: rotation.html
+    - output: web,pdf
+      title: Table of Angles
+      url: table.html
     output: web
     title: PCA_2
   output: web

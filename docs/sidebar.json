@@ -1,6 +1,7 @@
 {
   "PCA_2": {
     "Overview": "/",
-    "module name here": "core.html"
+    "Bone": "bone.html",
+    "Maths": "maths.html"
   }
 }

@@ -2,7 +2,9 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"bone": "00_bone.ipynb"}
+index = {"bone": "00_bone.ipynb",
+         "mag": "01_maths.ipynb",
+         "angle": "01_maths.ipynb"}
 
 modules = ["core.py"]
 

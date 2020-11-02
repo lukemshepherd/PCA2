@@ -13,6 +13,6 @@ entries:
       title: module name here
       url: core.html
     output: web
-    title: PCA_2_nb
+    title: PCA_2
   output: web
   title: Sidebar

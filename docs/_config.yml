@@ -1,7 +1,7 @@
 repository: lukemshepherd/PCA_2_nb
 output: web
-topnav_title: PCA_2_nb
-site_title: PCA_2_nb
+topnav_title: PCA_2
+site_title: PCA_2
 company_name: Luke Mortimer Shepherd
 description: Test nb prod
 # Set to false to disable KaTeX math

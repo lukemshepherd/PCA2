@@ -19,3 +19,7 @@ Fill me in please! Don't forget code examples:
 ### Load the data that you want to use
 
 ## Rotate the bone
+
+## Plotting the rotation
+
+## Table of angles

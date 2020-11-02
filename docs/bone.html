@@ -26,21 +26,6 @@ nb_path: "00_bone.ipynb"
     
 <div class="cell border-box-sizing code_cell rendered">
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/shep/Documents/PCA_2/PCA_2/core.py:348: SyntaxWarning: &#34;is&#34; with a literal. Did you mean &#34;==&#34;?
-  if bone_f1.dtype is &#39;stl&#39;:
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     {% endraw %}
 
@@ -94,6 +79,60 @@ what is considered a voxel. Everything below filter level is
 rounded to 0, everything above rounded to 1 (ie voxel)</p>
 <p>returns:
     np.array( [n x 3] )</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="bone.get_pca" class="doc_header"><code>bone.get_pca</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L56" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.get_pca</code>()</p>
+</blockquote>
+<p>PCA on the xyz points array</p>
+<p>xyz(np.array): n x 3 array of xyz coordinates</p>
+<p>returns:    self.pc1
+            self.pc2
+            self.pc3</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="bone.center_to_origin" class="doc_header"><code>bone.center_to_origin</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L84" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.center_to_origin</code>()</p>
+</blockquote>
+<p>sets the mean of the bone to 0,0,0</p>
 
 </div>
 

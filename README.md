@@ -66,7 +66,7 @@ tibia_f2.plot()
 mlab.show()
 ```
 
-<img src="docs/images/aligned.png" width="100%">
+<img src="docs/images/aligned.png" width="80%">
 
 ## Table of angles
 

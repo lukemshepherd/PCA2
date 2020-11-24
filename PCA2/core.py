@@ -4,6 +4,17 @@ __all__ = ['bone', 'mag', 'angle', 'quaternion_rotation_from_angle', 'quaternion
            'df_angles']
 
 # Cell
+import os
+import math
+import numpy as np
+import pandas as pd
+import scipy.io
+from pathlib import Path
+from mayavi import mlab
+import quaternion as quat
+from sklearn.decomposition import PCA
+
+# Cell
 class bone:
 
     filter_level = 0.001

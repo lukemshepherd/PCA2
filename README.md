@@ -2,27 +2,27 @@
 > Point Cloud Alignment with PCA
 
 
-This file will become your README and also the index of your documentation.
-
 ## Install
 
-`pip install PCA_2`
-
-## Or
+### Create conda environment (Recommended)
 
 `git pull https://github.com/lukemshepherd/PCA_2.git`
 
 `cd PCA_2`
 
-### Create conda environment
-
 `conda env create -f environment.yml`
 
 `conda activate PCA_2`
 
-### Create PCA-2 package
+### Install from PyPi
 
-    $ pip install -e .
+`pip install PCA_2`
+
+### Or: Install from GitHub
+
+`cd PCA_2`
+
+`pip install -e .`
 
 ## How to use
 

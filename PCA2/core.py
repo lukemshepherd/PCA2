@@ -352,18 +352,6 @@ def rotate(bone_f1, bone_f2, interpolate = False, scale_factor= 2):
         bone_f1.data.update_normals()
 
 # Cell
-import os
-import math
-import numpy as np
-import pandas as pd
-import scipy.io
-from pathlib import Path
-
-from mayavi import mlab
-import quaternion as quat
-from sklearn.decomposition import PCA
-
-# Cell
 def df_angles(bone_f1, bone_f2, degrees=False, name='UN-NAMED BONE'):
     """
     Compares the PCA angles between to bones.

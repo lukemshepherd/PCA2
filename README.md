@@ -64,9 +64,13 @@ rotate(tibia_f1, tibia_f2)
 Plotting with mayavi is very similar to matplotplib where you build a scene and call it with show()
 
 You can plot bones by calling the `.plot()` method and then `mlab.show()`
-tibia_f1.plot()
-tibia_f2.plot()
-mlab.show()
+
+```
+# tibia_f1.plot()
+# tibia_f2.plot()
+# mlab.show()
+```
+
 <div> 
     <img src="docs/images/aligned.png" width="100%"> 
 </div>

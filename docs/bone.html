@@ -2,7 +2,6 @@
 
 title: Bone
 
-
 keywords: fastai
 sidebar: home_sidebar
 
@@ -26,20 +25,12 @@ nb_path: "00_bone.ipynb"
     
 <div class="cell border-box-sizing code_cell rendered">
 
-<div class="output_wrapper">
-<div class="output">
+</div>
+    {% endraw %}
 
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/shep/Documents/PCA_2/PCA_2/core.py:348: SyntaxWarning: &#34;is&#34; with a literal. Did you mean &#34;==&#34;?
-  if bone_f1.dtype is &#39;stl&#39;:
-</pre>
-</div>
-</div>
-
-</div>
-</div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 </div>
     {% endraw %}
@@ -72,13 +63,6 @@ nb_path: "00_bone.ipynb"
     
 <div class="cell border-box-sizing code_cell rendered">
 
-</div>
-    {% endraw %}
-
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-
 <div class="output_wrapper">
 <div class="output">
 
@@ -89,7 +73,7 @@ nb_path: "00_bone.ipynb"
 <h4 id="bone.get_xyz" class="doc_header"><code>bone.get_xyz</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L28" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.get_xyz</code>()</p>
 </blockquote>
 <p>Convert 3D voxel array or STL to xyz coordinates.</p>
-<p>filter_level (int/float): (inherited from <a href="/PCA_2/bone.html#bone"><code>bone</code></a> class) sets the threshold level for
+<p>filter_level (int/float): (inherited from <a href="/PCA_2/bone#bone"><code>bone</code></a> class) sets the threshold level for
 what is considered a voxel. Everything below filter level is
 rounded to 0, everything above rounded to 1 (ie voxel)</p>
 <p>returns:
@@ -148,6 +132,167 @@ rounded to 0, everything above rounded to 1 (ie voxel)</p>
 <h4 id="bone.center_to_origin" class="doc_header"><code>bone.center_to_origin</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L84" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.center_to_origin</code>()</p>
 </blockquote>
 <p>sets the mean of the bone to 0,0,0</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="bone.center_to_origin" class="doc_header"><code>bone.center_to_origin</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L84" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.center_to_origin</code>()</p>
+</blockquote>
+<p>sets the mean of the bone to 0,0,0</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="bone.plot" class="doc_header"><code>bone.plot</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L97" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.plot</code>(<strong><code>user_color</code></strong>=<em><code>None</code></em>, <strong><code>mesh</code></strong>=<em><code>False</code></em>, <strong><code>PCA_inv</code></strong>=<em><code>False</code></em>, <strong><code>PCA</code></strong>=<em><code>True</code></em>)</p>
+</blockquote>
+<p>Plot voxels with optional PCA, and colours</p>
+<p>user_color (tupple): RGB color of the bone where 1 is maxium
+                        eg: red = (1,0,0)</p>
+<p>PCA (boolean): plots the PCAs of the voxel</p>
+<p>PCA_inv (boolean): plots the inverse of each PCA so the axes go in both directions</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="bone.scale" class="doc_header"><code>bone.scale</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L151" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.scale</code>(<strong><code>n</code></strong>, <strong><code>algo</code></strong>=<em><code>'constant'</code></em>)</p>
+</blockquote>
+<p>up-scales the bone by n</p>
+<p>n: scale factor</p>
+<p>algo: method of upscaling array
+scipy.ndimagezoom(mode=...)</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="bone.xyz_to_array" class="doc_header"><code>bone.xyz_to_array</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L165" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.xyz_to_array</code>(<strong><code>array_dim</code></strong>=<em><code>(256, 256, 256)</code></em>)</p>
+</blockquote>
+<p>Converts xyz coordinates to numpy voxel array</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="bone.from_matlab_path" class="doc_header"><code>bone.from_matlab_path</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L183" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.from_matlab_path</code>(<strong><code>matlab_file</code></strong>)</p>
+</blockquote>
+<p>Imports matlab file drectly</p>
+<p>path: path object/string</p>
+<p>retruns np.array (n x n x n )</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="bone.from_stl_path" class="doc_header"><code>bone.from_stl_path</code><a href="https://github.com/lukemshepherd/PCA_2/tree/master/PCA_2/core.py#L200" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>bone.from_stl_path</code>(<strong><code>stl_file</code></strong>)</p>
+</blockquote>
+<p>Imports stl file drectly</p>
+<p>path: path object/string</p>
+<p>retruns np.array (n x n x n )</p>
 
 </div>
 

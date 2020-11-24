@@ -284,7 +284,7 @@ def quaternion_rotation_from_quaternion(v, q):
 # Cell
 def rotate(bone_f1, bone_f2, interpolate = False, scale_factor= 2):
 
-    if interpolate is True:
+    if interpolate == True:
         print(f'scalling bone by {scale_factor}')
         bone_f1.scale(scale_factor)
 
@@ -340,12 +340,12 @@ def rotate(bone_f1, bone_f2, interpolate = False, scale_factor= 2):
     bone_f2.reset_position()
 
     # reduce bone to orginal size
-    if interpolate is True:
+    if interpolate == True:
         print(f'scalling bone by {1/scale_factor}')
         bone_f1.scale(1/scale_factor)
 
 
-    if bone_f1.dtype is 'stl':
+    if bone_f1.dtype == 'stl':
 
         #update internal data
         bone_f1.data.v0 , bone_f1.data.v1, bone_f1.data.v2 = np.array_split(bone_f1.xyz, 3)

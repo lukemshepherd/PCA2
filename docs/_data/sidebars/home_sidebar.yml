@@ -11,16 +11,16 @@ entries:
       url: /
     - output: web,pdf
       title: Bone
-      url: bone.html
+      url: /bone
     - output: web,pdf
       title: Maths
-      url: maths.html
+      url: /maths
     - output: web,pdf
       title: Rotation
-      url: rotation.html
+      url: /rotation
     - output: web,pdf
       title: Table of Angles
-      url: table.html
+      url: /table
     output: web
     title: PCA_2
   output: web

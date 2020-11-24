@@ -1,9 +1,9 @@
 {
   "PCA_2": {
     "Overview": "/",
-    "Bone": "bone.html",
-    "Maths": "maths.html",
-    "Rotation": "rotation.html",
-    "Table of Angles": "table.html"
+    "Bone": "/bone",
+    "Maths": "/maths",
+    "Rotation": "/rotation",
+    "Table of Angles": "/table"
   }
 }

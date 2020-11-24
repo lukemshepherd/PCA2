@@ -37,7 +37,7 @@ bone.filter_level = 0.1
 #### Set custom colour for bone(optional)
 
 ```
-# tibia_f1.default_color = (0.8, 0.3, 0)
+tibia_f1.default_color = (0.8, 0.3, 0)
 ```
 
 ## Load the data that you want to use
@@ -61,9 +61,9 @@ Plotting with mayavi is very similar to matplotplib where you build a scene and 
 You can plot bones by calling the .plot() method and then mlab.show()
 
 ```
-# tibia_f1.plot()
-# tibia_f2.plot()
-# mlab.show()
+tibia_f1.plot()
+tibia_f2.plot()
+mlab.show()
 ```
 
 ![](docs/images/aligned.png)

@@ -16,6 +16,7 @@
 
 ### Install from PyPi
 
+
 `pip install PCA2`
 
 ### Or: Install from GitHub
@@ -62,12 +63,12 @@ rotate(tibia_f1, tibia_f2)
 
 Plotting with mayavi is very similar to matplotplib where you build a scene and call it with show()
 
-You can plot bones by calling the .plot() method and then mlab.show()
+You can plot bones by calling the `.plot()` method and then `mlab.show()`
 
 ```
 tibia_f1.plot()
 tibia_f2.plot()
-mlab.show()
+#mlab.show()
 ```
 
 <div> 
@@ -80,9 +81,9 @@ mlab.show()
 df_angles(tibia_f1, tibia_f2, name='tibia')
 ```
 
-    0.6019718433476905 no invert
-    2.6184557666721346e-16 no invert
-    0.6019718433476903 no invert
+    1.6184142622847344e-16 no invert
+    1.2412670766236368e-16 no invert
+    1.9141791241147516e-16 no invert
 
 
 
@@ -114,21 +115,21 @@ df_angles(tibia_f1, tibia_f2, name='tibia')
   <tbody>
     <tr>
       <th>tibia f1: pc1</th>
-      <td>0.601972</td>
+      <td>1.618414e-16</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>tibia f1: pc2</th>
       <td>NaN</td>
-      <td>2.618456e-16</td>
+      <td>1.241267e-16</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>tibia f1: pc3</th>
       <td>NaN</td>
       <td>NaN</td>
-      <td>0.601972</td>
+      <td>1.914179e-16</td>
     </tr>
   </tbody>
 </table>

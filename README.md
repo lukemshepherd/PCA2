@@ -71,7 +71,7 @@ mlab.show()
 ```
 
 <div> 
-    <img src="docs/images/aligned.png" width="50%"> 
+    <img src="docs/images/aligned.png" width="100%"> 
 </div>
 
 ## Table of angles

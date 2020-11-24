@@ -2,11 +2,11 @@
 SHELL := /bin/bash
 SRC = $(wildcard ./*.ipynb)
 
-all: PCA_2 docs
+all: PCA2 docs
 
-PCA_2: $(SRC)
+PCA2: $(SRC)
 	nbdev_build_lib
-	touch PCA_2
+	touch PCA2
 
 sync:
 	nbdev_update_lib

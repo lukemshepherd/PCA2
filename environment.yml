@@ -1,4 +1,4 @@
-name: PCA_2
+name: PCA2
 channels:
   - anaconda
   - conda-forge

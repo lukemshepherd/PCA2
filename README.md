@@ -34,7 +34,7 @@ Fill me in please! Don't forget code examples:
 bone.filter_level = 0.1
 ```
 
-#### Set custom colour for bone(optional)
+#### Set custom colour for bone (optional)
 
 ```
 tibia_f1.default_color = (0.8, 0.3, 0)
@@ -66,7 +66,7 @@ tibia_f2.plot()
 mlab.show()
 ```
 
-![](docs/images/aligned.png)
+<img src="docs/images/aligned.png" width="100%">
 
 ## Table of angles
 

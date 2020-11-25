@@ -2,7 +2,7 @@
 > Point Cloud Alignment with PCA
 
 
-## Install:
+## Install
 
 ### Create conda environment *(Recommended)*
 
@@ -12,7 +12,7 @@
 
 `conda activate PCA2`
 
-## pip
+## With pip
 
 
 `pip install PCA2`
@@ -27,6 +27,7 @@
 
 ```
 from PCA2.core import *
+from mayavi import mlab # for calling the plots
 ```
 
 #### *Set custom filter level (optional)*
@@ -66,9 +67,9 @@ Plotting with mayavi is very similar to matplotplib where you build a scene and 
 You can plot bones by calling the `.plot()` method and then `mlab.show()`
 
 ```
-# tibia_f1.plot()
-# tibia_f2.plot()
-# mlab.show()
+tibia_f1.plot()
+tibia_f2.plot()
+mlab.show()
 ```
 
 <div> 

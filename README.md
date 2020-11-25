@@ -8,20 +8,18 @@
 
 `git pull https://github.com/lukemshepherd/PCA_2.git`
 
-`cd PCA2`
-
 `conda env create -f environment.yml`
 
 `conda activate PCA2`
 
-### Install from PyPi
+### Install: 
 
 
 `pip install PCA2`
 
-### Or: Install from GitHub
+#### Or if you need an editable install
 
-`cd PCA2`
+`git pull https://github.com/lukemshepherd/PCA_2.git`
 
 `pip install -e .`
 

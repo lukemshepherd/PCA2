@@ -25,6 +25,10 @@
 
 ## How to use
 
+```
+from PCA2.core import *
+```
+
 Fill me in please! Don't forget code examples:
 
 #### Set custom filter level (optional)

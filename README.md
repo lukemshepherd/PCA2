@@ -67,9 +67,9 @@ Plotting with mayavi is very similar to matplotplib where you build a scene and 
 You can plot bones by calling the `.plot()` method and then `mlab.show()`
 
 ```
-tibia_f1.plot()
-tibia_f2.plot()
-mlab.show()
+# tibia_f1.plot()
+# tibia_f2.plot()
+# mlab.show()
 ```
 
 <div> 

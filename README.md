@@ -2,9 +2,9 @@
 > Point Cloud Alignment with PCA
 
 
-## Install
+## Install:
 
-### Create conda environment (Recommended)
+### Create conda environment *(Recommended)*
 
 `git pull https://github.com/lukemshepherd/PCA_2.git`
 
@@ -12,12 +12,12 @@
 
 `conda activate PCA2`
 
-### Install: 
+## pip
 
 
 `pip install PCA2`
 
-#### Or if you need an editable install
+## Editable install
 
 `git pull https://github.com/lukemshepherd/PCA_2.git`
 
@@ -29,9 +29,7 @@
 from PCA2.core import *
 ```
 
-Fill me in please! Don't forget code examples:
-
-#### Set custom filter level (optional)
+#### *Set custom filter level (optional)*
 
 ```
 bone.filter_level = 0.2
@@ -44,7 +42,7 @@ tibia_f2 = bone.from_matlab_path(matlab_file='data/tibia_f2.mat')
 tibia_f1 = bone.from_matlab_path(matlab_file='data/phantom_tibia_f1.mat')
 ```
 
-#### Set custom colour for bone (optional)
+#### *Set custom colour for bone (optional)*
 
 ```
 tibia_f1.default_color = (0.8, 0.3, 0)

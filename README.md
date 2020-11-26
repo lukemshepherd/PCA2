@@ -39,7 +39,7 @@ bone.filter_level = 0.3
 ## Load the data that you want to use
 
 ```
-tibia_f2 = bone.from_matlab_path(matlab_file='/home/luke/Downloads/phantom_tibia_f2.mat')
+tibia_f2 = bone.from_matlab_path(matlab_file='/data/tibia_f2.mat')
 tibia_f1 = bone.from_matlab_path(matlab_file='data/phantom_tibia_f1.mat')
 ```
 

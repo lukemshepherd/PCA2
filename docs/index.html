@@ -114,7 +114,7 @@ nb_path: "index.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bone</span><span class="o">.</span><span class="n">filter_level</span> <span class="o">=</span> <span class="mf">0.2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bone</span><span class="o">.</span><span class="n">filter_level</span> <span class="o">=</span> <span class="mf">0.3</span>
 </pre></div>
 
     </div>
@@ -137,7 +137,7 @@ nb_path: "index.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tibia_f2</span> <span class="o">=</span> <span class="n">bone</span><span class="o">.</span><span class="n">from_matlab_path</span><span class="p">(</span><span class="n">matlab_file</span><span class="o">=</span><span class="s1">&#39;data/tibia_f2.mat&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tibia_f2</span> <span class="o">=</span> <span class="n">bone</span><span class="o">.</span><span class="n">from_matlab_path</span><span class="p">(</span><span class="n">matlab_file</span><span class="o">=</span><span class="s1">&#39;/home/luke/Downloads/phantom_tibia_f2.mat&#39;</span><span class="p">)</span>
 <span class="n">tibia_f1</span> <span class="o">=</span> <span class="n">bone</span><span class="o">.</span><span class="n">from_matlab_path</span><span class="p">(</span><span class="n">matlab_file</span><span class="o">=</span><span class="s1">&#39;data/phantom_tibia_f1.mat&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -197,9 +197,9 @@ nb_path: "index.ipynb"
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>0.17458532149354633 no invert
-0.5815521223920518 no invert
-1.9141791241147516e-16 no invert
+<pre>0.17471680699860007 no invert
+0.5819453559235347 no invert
+3.906788298496456e-16 no invert
 </pre>
 </div>
 </div>
@@ -231,8 +231,9 @@ nb_path: "index.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># tibia_f2.plot()</span>
-<span class="c1"># mlab.show()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tibia_f1</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">tibia_f2</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">mlab</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -276,9 +277,9 @@ nb_path: "index.ipynb"
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>1.6184142622847344e-16 no invert
-1.2412670766236368e-16 no invert
-1.9141791241147516e-16 no invert
+<pre>1.7785780651003298e-16 no invert
+1.2719202621569003e-16 no invert
+3.906788298496456e-16 no invert
 </pre>
 </div>
 </div>
@@ -313,21 +314,21 @@ nb_path: "index.ipynb"
   <tbody>
     <tr>
       <th>tibia f1: pc1</th>
-      <td>1.618414e-16</td>
+      <td>1.778578e-16</td>
       <td>NaN</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>tibia f1: pc2</th>
       <td>NaN</td>
-      <td>1.241267e-16</td>
+      <td>1.271920e-16</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>tibia f1: pc3</th>
       <td>NaN</td>
       <td>NaN</td>
-      <td>1.914179e-16</td>
+      <td>3.906788e-16</td>
     </tr>
   </tbody>
 </table>

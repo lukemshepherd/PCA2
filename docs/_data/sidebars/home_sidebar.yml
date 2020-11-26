@@ -21,6 +21,9 @@ entries:
     - output: web,pdf
       title: Table of Angles
       url: table.html
+    - output: web,pdf
+      title: STL files
+      url: stl.html
     output: web
     title: PCA2
   output: web

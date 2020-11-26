@@ -39,7 +39,7 @@ bone.filter_level = 0.3
 ## Load the data that you want to use
 
 ```
-tibia_f2 = bone.from_matlab_path(matlab_file='/data/tibia_f2.mat')
+tibia_f2 = bone.from_matlab_path(matlab_file='data/tibia_f2.mat')
 tibia_f1 = bone.from_matlab_path(matlab_file='data/phantom_tibia_f1.mat')
 ```
 
@@ -67,9 +67,9 @@ Plotting with mayavi is very similar to matplotplib where you build a scene and 
 You can plot bones by calling the `.plot()` method and then `mlab.show()`
 
 ```
-tibia_f1.plot()
-tibia_f2.plot()
-mlab.show()
+# tibia_f1.plot()
+# tibia_f2.plot()
+# mlab.show()
 ```
 
 <div> 
